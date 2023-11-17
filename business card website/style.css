@@ -1,0 +1,89 @@
+.table {
+  display: none;
+}
+.tableActive {
+  display: block;
+}
+.image {
+  width: 290px;
+  text-align: center;
+  margin-left: 610px;
+  border-radius: 80px;
+  border: 3px solid rgb(255, 183, 0);
+}
+.info__title {
+  padding-bottom: 10px;
+  text-align: center;
+  color: black;
+}
+.logo {
+  text-align: center;
+  color: black;
+}
+.main {
+  background-color: #f4a460;
+}
+.info__fullname {
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+.student {
+  text-align: center;
+  color: black;
+}
+.info__nickname {
+  display: inline-block;
+  background: black;
+  color: #fff;
+  padding: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+}
+.button {
+  margin-top: 10px;
+  display: inline-block;
+  background: black;
+  color: #fff;
+  padding: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+}
+.buttonbtn {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+}
+.portfolio__btn {
+  text-align: center;
+  display: inline-block;
+  background: black;
+  color: #fff;
+  padding: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.card {
+  text-align: center;
+}
+.code {
+  width: 760px;
+  border: 3px solid rgb(41, 187, 18);
+}
+.svagger {
+  width: 760px;
+  border: 3px solid rgb(41, 187, 18);
+}

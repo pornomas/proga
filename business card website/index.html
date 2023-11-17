@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Сайт-визитка</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      .header {
+        background: rgb(63, 94, 251);
+        background: radial-gradient(
+          circle,
+          rgba(63, 94, 251, 1) 0%,
+          rgba(252, 70, 107, 1) 100%
+        );
+        color: white;
+        padding: 10px 0;
+      }
+
+      .header-title {
+        margin: 0;
+        padding: 0 0 0 20px;
+      }
+
+      .main {
+        padding: 20px 0;
+      }
+
+      .footer {
+        background: rgb(63, 94, 251);
+        background: radial-gradient(
+          circle,
+          rgba(63, 94, 251, 1) 0%,
+          rgba(252, 70, 107, 1) 100%
+        );
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+
+      .portfolio-menu {
+        display: none;
+        background-color: #e0e0e0;
+        padding: 10px;
+        margin-top: 10px;
+      }
+
+      .toggle-button {
+        background: rgb(63, 94, 251);
+        background: radial-gradient(
+          circle,
+          rgba(63, 94, 251, 1) 0%,
+          rgba(252, 70, 107, 1) 100%
+        );
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header-title">Сайт-визитка Давида</h1>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <img src="/11.png" alt="Placebo's Avatar" class="avatar" />
+        <p>
+          Привет,я Давид. Студент МТУСИ. ♂️ Любитель кабачковой икры и гачи мучи
+          ♂️.
+        </p>
+
+        <button class="toggle-button" onclick="togglePortfolio()">
+          Портфолио
+        </button>
+        <div class="portfolio-menu" id="portfolioMenu">
+          <p>Мои работы</p>
+          <ul>
+            <li>
+              <a href="https://github.com/pornomas" target="_blank">GitHub</a>
+            </li>
+            <!-- Добавьте другие ссылки на работы или проекты здесь -->
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>© 2023 Давид Джан. All rights reserved.</p>
+    </footer>
+
+    <script>
+      function togglePortfolio() {
+        var portfolioMenu = document.getElementById("portfolioMenu");
+        if (portfolioMenu.style.display === "none") {
+          portfolioMenu.style.display = "block";
+        } else {
+          portfolioMenu.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
